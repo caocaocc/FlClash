@@ -247,20 +247,7 @@ class AppSidebarContainer extends ConsumerWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    IconButton(
-                      onPressed: () {
-                        ref
-                            .read(appSettingProvider.notifier)
-                            .updateState(
-                              (state) =>
-                                  state.copyWith(showLabel: !state.showLabel),
-                            );
-                      },
-                      icon: Icon(
-                        Icons.menu,
-                        color: context.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
+                    const SizedBox.shrink(),
                     const SizedBox(height: 16),
                   ],
                 ),

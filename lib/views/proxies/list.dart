@@ -575,7 +575,7 @@ class _ListHeaderState extends State<ListHeader> {
                     style: ButtonStyle(
                       tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                     ),
-                    icon: const Icon(Icons.network_ping),
+                    icon: const Icon(Icons.flash_on),
                   ),
                   const SizedBox(width: 6),
                 ] else
